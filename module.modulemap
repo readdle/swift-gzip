@@ -1,4 +1,5 @@
 module GZIP [system] {
     header "gzip.h"
+    export *
     link "z"
 }
